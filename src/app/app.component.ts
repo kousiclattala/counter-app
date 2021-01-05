@@ -14,7 +14,7 @@ export class AppComponent {
     this.count = this.count + 1;
 
     if (this.count === 11) {
-      alert(`You have reached the counter limit ${this.count}`);
+      alert(`You reached the counter limit ${this.count}`);
       this.count = 0;
     }
   }
